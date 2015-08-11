@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gmail]">
+  <test name="Gmail logging Test(failed)">
+    <classes>
+      <class name="testNG.mailCorrespendings">
+        <methods>
+          <include name="mailStatus"/>
+        </methods>
+      </class> <!-- testNG.mailCorrespendings -->
+      <class name="testNG.gmailChekcing">
+        <methods>
+          <include name="receivingMail"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+          <include name="sendingMail"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNG.gmailChekcing -->
+    </classes>
+  </test> <!-- Gmail logging Test(failed) -->
+</suite> <!-- Failed suite [Gmail] -->

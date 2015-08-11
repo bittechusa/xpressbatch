@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail" duration-ms="25228" started-at="2015-06-07T06:05:51Z" finished-at="2015-06-07T06:06:16Z">
+    <groups>
+    </groups>
+    <test name="Gmail logging Test" duration-ms="24901" started-at="2015-06-07T06:05:51Z" finished-at="2015-06-07T06:06:15Z">
+      <class name="testNG.gmailChekcing">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="beforeTest" is-config="true" duration-ms="47" started-at="2015-06-07T02:05:51Z" finished-at="2015-06-07T02:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="openBrowser" is-config="true" duration-ms="3641" started-at="2015-06-07T02:05:51Z" finished-at="2015-06-07T02:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logging()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="logging" duration-ms="16267" started-at="2015-06-07T02:05:54Z" finished-at="2015-06-07T02:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logging -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="closeBrowser" is-config="true" duration-ms="1162" started-at="2015-06-07T02:06:11Z" finished-at="2015-06-07T02:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="FAIL" signature="openBrowser()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="openBrowser" is-config="true" duration-ms="0" started-at="2015-06-07T02:06:12Z" finished-at="2015-06-07T02:06:12Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Window not found. The browser window may have been closed.
+Command duration or timeout: 3.58 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Munna', ip: '10.0.0.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3900c605-3036-4fcb-9f07-23562ddc7525]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 3.58 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Munna', ip: '10.0.0.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3900c605-3036-4fcb-9f07-23562ddc7525
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at testNG.gmailChekcing.openBrowser(gmailChekcing.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'Munna', ip: '10.0.0.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at <anonymous class>.Resource.prototype.handle(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at <anonymous class>.WebDriverServer/<.handle(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at <anonymous class>.createHandlerFunc/<(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at <anonymous class>.Connection.prototype.process(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///C:/Users/MD1B10~1.ATA/AppData/Local/Temp/anonymous7011784793450619151webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="sendingMail()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="sendingMail" duration-ms="2" started-at="2015-06-07T02:06:15Z" finished-at="2015-06-07T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingMail -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-06-07T02:06:15Z" finished-at="2015-06-07T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="openBrowser" is-config="true" duration-ms="0" started-at="2015-06-07T02:06:15Z" finished-at="2015-06-07T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="receivingMail()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="receivingMail" duration-ms="1" started-at="2015-06-07T02:06:15Z" finished-at="2015-06-07T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receivingMail -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-06-07T02:06:15Z" finished-at="2015-06-07T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="logOut()[pri:0, instance:testNG.gmailChekcing@31fa1761]" name="logOut" is-config="true" duration-ms="0" started-at="2015-06-07T02:06:15Z" finished-at="2015-06-07T02:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- testNG.gmailChekcing -->
+    </test> <!-- Gmail logging Test -->
+    <test name="Gmail mailing Test" duration-ms="11" started-at="2015-06-07T06:06:16Z" finished-at="2015-06-07T06:06:16Z">
+      <class name="testNG.mailCorrespendings">
+        <test-method status="PASS" signature="mailStatus()[pri:0, instance:testNG.mailCorrespendings@2d710f1a]" name="mailStatus" is-config="true" duration-ms="1" started-at="2015-06-07T02:06:16Z" finished-at="2015-06-07T02:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailStatus -->
+        <test-method status="PASS" signature="receivingMail()[pri:0, instance:testNG.mailCorrespendings@2d710f1a]" name="receivingMail" duration-ms="2" started-at="2015-06-07T02:06:16Z" finished-at="2015-06-07T02:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receivingMail -->
+        <test-method status="PASS" signature="sendingMail()[pri:0, instance:testNG.mailCorrespendings@2d710f1a]" name="sendingMail" duration-ms="1" started-at="2015-06-07T02:06:16Z" finished-at="2015-06-07T02:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendingMail -->
+      </class> <!-- testNG.mailCorrespendings -->
+    </test> <!-- Gmail mailing Test -->
+  </suite> <!-- Gmail -->
+</testng-results>

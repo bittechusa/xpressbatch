@@ -1,0 +1,14 @@
+<suite name ="Gmail">
+	<test name = "Gmail logging Test">
+	<classes>
+		<class name = "testNG.gmailChekcing"/>
+	</classes>
+	</test>
+	
+	<test name = "Gmail mailing Test">
+	<classes>
+		<class name = "testNG.mailCorrespendings"/>
+	</classes>
+	</test>
+	
+</suite>
