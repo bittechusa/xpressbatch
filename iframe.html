@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            Welcome Rubel vi
+        </title>
+        <style>
+            .salman
+            {
+                border-radius:0.75em;
+                width:300px;
+                height:50px;
+                border:10px solid red;
+                background:orange;
+            }
+        </style>
+        <script>
+            function verify()
+            {
+                var fnameval = document.getElementById("fname").value;
+                if(fnameval=="")
+                {
+                    alert("You forgot to type your first name");
+                }
+            }
+        </script>
+    </head>
+ 
+    <body bgcolor="blue">
+         
+        <font color="red" size="16">
+            <b>
+                Student Registration
+            </b>
+        </font>
+        <br>
+        <font color="green" size=10>
+            <b>
+                First Name
+        <input type="text" class="salman" id="fname">
+        <br>
+        Gender <input type=radio name="feizza"> Male
+        <input type=radio name="feizza"> Female
+        <br>
+        Select your country
+        <select>
+            <option> China </option>
+            <option> Japan </option>
+            <option> Korea </option>
+        </select>
+        <input type=button value="Register" onclick="verify()">
+    </body>
+</html>
+ 
+ 
+ 
+ 
+CSS class
+ 
+<html>
+    <head>
+        <title> Bittech </title>
+        <link rel="stylesheet" type="text\css" href="extarnalCss.css">
+         
+    </head>
+    <body>
+        <input type="text" placeholder="F Name"><br>
+        Password: <input type="password">
+        <!-- 
+            This is inline call
+        -->
+        <p style=color:red> This is P1 tag </p> <br>
+        <p id="abc"> This is P2 tag </p> <br>
+        <p class="xyz"> This is P3 tag </p> <br>
+        <p class="xyz"> This is P4 tag </p> <br>
+        <p id="abc"> This is P5 tag </p> <br>
+        <b class="xyz"> This is P1 tag </b> <br>
+        <b id="abc"> This is P2 tag </b> <br>
+ 
+    </body>
+</html>
