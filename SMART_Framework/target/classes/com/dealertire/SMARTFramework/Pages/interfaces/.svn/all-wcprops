@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/FunctionalTests/!svn/ver/349/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/interfaces
+END
+PageObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/FunctionalTests/!svn/ver/349/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/interfaces/PageObject.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/FunctionalTests/!svn/ver/349/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/interfaces/package-info.java
+END
+HasDealerWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/FunctionalTests/!svn/ver/349/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/interfaces/HasDealerWidget.java
+END
