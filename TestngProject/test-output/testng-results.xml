@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18166" started-at="2015-08-27T23:50:42Z" finished-at="2015-08-27T23:51:00Z">
+    <groups>
+    </groups>
+    <test name="ToolsQA" duration-ms="18166" started-at="2015-08-27T23:50:42Z" finished-at="2015-08-27T23:51:00Z">
+      <class name="com.Parameter">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.Parameter@33e5ccce]" name="test" duration-ms="18155" started-at="2015-08-27T19:50:42Z" finished-at="2015-08-27T19:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.Parameter -->
+    </test> <!-- ToolsQA -->
+  </suite> <!-- Suite -->
+</testng-results>
