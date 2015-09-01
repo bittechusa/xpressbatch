@@ -16,6 +16,8 @@ public class SmokeTest
 {
 	FirefoxDriver dr=new FirefoxDriver();
 	@Test
+	//to verify attribute of two elements
+
 	public void m1()
 	{
 		dr.get("http://www.facebook.com");
@@ -32,6 +34,8 @@ public class SmokeTest
 			
 	}
 	@Test
+	
+	//Alert handling
 	public void m2() throws InterruptedException
 	{
 		dr.get("file:///C:/xampp/htdocs/alert.html");
@@ -57,6 +61,8 @@ public class SmokeTest
 		
 	}
 	@Test
+	
+	//Drag and drop test
 	public void m3()
 	{
 		dr.get("http://jqueryui.com/droppable/");
@@ -69,6 +75,8 @@ public class SmokeTest
 		
 	}
 	@Test
+	
+	//multiple window handle
 	public void m4() throws InterruptedException
 	{
 		dr.get("http://www.eshopper24.com");
