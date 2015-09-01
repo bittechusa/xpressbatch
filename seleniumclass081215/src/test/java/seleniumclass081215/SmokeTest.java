@@ -16,9 +16,10 @@ public class SmokeTest
 {
 	FirefoxDriver dr=new FirefoxDriver();
 	@Test
-	public void m1()
+	public void m1()                                 //attributes
 	{
-		dr.get("http://www.facebook.com");
+		
+		dr.get("http://www.teachwise.com");
 		String s=dr.findElement(By.xpath("")).getAttribute("id");
 		dr.findElement(By.xpath("")).click();
 		String s1=dr.findElement(By.xpath("")).getAttribute("id");
@@ -32,7 +33,7 @@ public class SmokeTest
 			
 	}
 	@Test
-	public void m2() throws InterruptedException
+	public void m2() throws InterruptedException       //alert box
 	{
 		dr.get("file:///C:/xampp/htdocs/alert.html");
 		dr.findElement(By.xpath("//input[@value='login']")).click();
@@ -46,10 +47,10 @@ public class SmokeTest
 			System.out.println();
 		a.accept();
 		Thread.sleep(2000);
-		dr.findElement(By.xpath("//input[@value='login1']")).click();
+		dr.findElement(By.xpath("//input[@value='login1']")).click();//confirm box
 		a.dismiss();
 		Thread.sleep(2000);
-		dr.findElement(By.xpath("//input[@value='login2']")).click();
+		dr.findElement(By.xpath("//input[@value='login2']")).click();//prompt box
 		a.sendKeys("dgh");
 		a.accept();
 		Thread.sleep(2000);
@@ -57,7 +58,7 @@ public class SmokeTest
 		
 	}
 	@Test
-	public void m3()
+	public void m3()                                //iframe
 	{
 		dr.get("http://jqueryui.com/droppable/");
 		dr.switchTo().frame(0);
@@ -68,8 +69,9 @@ public class SmokeTest
 		a.dragAndDrop(drag, drop).build().perform();
 		
 	}
+	
 	@Test
-	public void m4() throws InterruptedException
+	public void m4() throws InterruptedException    //Window Handling
 	{
 		dr.get("http://www.eshopper24.com");
 		WebElement ele=dr.findElement(By.xpath("html/body/div[4]/div[2]/div/section[1]/div[5]/figure/a/img"));
