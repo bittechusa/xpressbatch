@@ -9,9 +9,10 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class BaseTest 
 {
 	WebDriver dr;
-	@Before
+	@Test
 	public void m1()
 	{
+
 		String s=System.getProperty("browser");
 				if(s.equals("f"))
 				{
@@ -30,10 +31,6 @@ public class BaseTest
 				else
 					dr=new FirefoxDriver();
 	}
-	@Test
-	public void test()
-	{
-		
-	}
+	
 
 }
