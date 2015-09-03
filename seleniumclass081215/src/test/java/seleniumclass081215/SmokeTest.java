@@ -16,7 +16,13 @@ public class SmokeTest
 {
 	FirefoxDriver dr=new FirefoxDriver();
 	@Test
+<<<<<<< HEAD
+	//to verify attribute of two elements
+
+	public void m1()
+=======
 	public void m1()                                 //attributes
+>>>>>>> cb5bdf8b9499ee5cb325b7655da571e497abd17a
 	{
 		
 		dr.get("http://www.teachwise.com");
@@ -33,7 +39,13 @@ public class SmokeTest
 			
 	}
 	@Test
+<<<<<<< HEAD
+	
+	//Alert handling
+	public void m2() throws InterruptedException
+=======
 	public void m2() throws InterruptedException       //alert box
+>>>>>>> cb5bdf8b9499ee5cb325b7655da571e497abd17a
 	{
 		dr.get("file:///C:/xampp/htdocs/alert.html");
 		dr.findElement(By.xpath("//input[@value='login']")).click();
@@ -58,7 +70,13 @@ public class SmokeTest
 		
 	}
 	@Test
+<<<<<<< HEAD
+	
+	//Drag and drop test
+	public void m3()
+=======
 	public void m3()                                //iframe
+>>>>>>> cb5bdf8b9499ee5cb325b7655da571e497abd17a
 	{
 		dr.get("http://jqueryui.com/droppable/");
 		dr.switchTo().frame(0);
@@ -71,7 +89,13 @@ public class SmokeTest
 	}
 	
 	@Test
+<<<<<<< HEAD
+	
+	//multiple window handle
+	public void m4() throws InterruptedException
+=======
 	public void m4() throws InterruptedException    //Window Handling
+>>>>>>> cb5bdf8b9499ee5cb325b7655da571e497abd17a
 	{
 		dr.get("http://www.eshopper24.com");
 		WebElement ele=dr.findElement(By.xpath("html/body/div[4]/div[2]/div/section[1]/div[5]/figure/a/img"));
