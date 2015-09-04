@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/FunctionalTests/!svn/ver/390/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages
+END
+MyPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/FunctionalTests/!svn/ver/351/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/MyPage.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/FunctionalTests/!svn/ver/178/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/package-info.java
+END
+IssuePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/FunctionalTests/!svn/ver/351/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/IssuePage.java
+END
+ActivityPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/FunctionalTests/!svn/ver/390/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/ActivityPage.java
+END
+DealerPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/FunctionalTests/!svn/ver/275/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/DealerPage.java
+END
+VisitPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/FunctionalTests/!svn/ver/380/branches/features/development/IA/SMART_Framework/src/main/java/com/dealertire/SMARTFramework/Pages/VisitPage.java
+END
